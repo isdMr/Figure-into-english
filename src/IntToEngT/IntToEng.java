@@ -15,7 +15,6 @@ public class IntToEng {
 	  // 数値を英訳する変換するメソッド
 	static String translateEng(int n) {
 		String s="";
-		int m=n;
 		int t;
 		int u;
 		if(String.valueOf(n).length()==2||String.valueOf(n).length()==1){
