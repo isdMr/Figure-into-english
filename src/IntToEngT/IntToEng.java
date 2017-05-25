@@ -20,15 +20,16 @@ public class IntToEng {
 		if(String.valueOf(n).length()==2||String.valueOf(n).length()==1){
 			if(n/10!=1&&String.valueOf(n).length()!=1){
 				t=n/10;
-				if(t==2)s="twenty";
-				else if(t==3)s="thirty";
-				else if(t==4)s="forty";
-				else if(t==5)s="fifty";
-				else if(t==6)s="sixty";
-				else if(t==7)s="seventy";
-				else if(t==8)s="eighty";
-				else if(t==9)s="ninty";
+				if(t==2)s="twenty ";
+				else if(t==3)s="thirty ";
+				else if(t==4)s="forty ";
+				else if(t==5)s="fifty ";
+				else if(t==6)s="sixty ";
+				else if(t==7)s="seventy ";
+				else if(t==8)s="eighty ";
+				else if(t==9)s="ninty ";
 			}
+
 			u=n%10;
 			if(u==1) s=s+"one";
 			else if(u==2) s=s+"two";
