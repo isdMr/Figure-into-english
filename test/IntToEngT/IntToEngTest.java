@@ -8,10 +8,10 @@ import org.junit.Test;
 public class IntToEngTest {
 
 		@Test
-		public void 入力値2のとき() {
+		public void 入力値3のとき() {
 			IntToEng sn=new IntToEng();
-			String expected ="two";
-			String actual=sn.translateEng(2);
+			String expected ="three";
+			String actual=sn.translateEng(3);
 			assertThat(actual,is(expected));
 		}
 		@Test
